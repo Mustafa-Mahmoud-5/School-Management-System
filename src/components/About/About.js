@@ -3,6 +3,7 @@ import './About.scss';
 function About() {
 	return (
 		<div id='About'>
+			<h2>TEST</h2>
 			<h1 style={{ textAlign: 'center' }}>About The Application</h1>
 			<div className='row'>
 				<div className='col-md-6'>
