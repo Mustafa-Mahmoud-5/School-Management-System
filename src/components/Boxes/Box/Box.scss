@@ -1,0 +1,45 @@
+@import '../../../../variables.scss';
+.wrap{
+  box-shadow: 1px 2px 3px #ccc;
+  border-radius: 7px;
+
+  &:hover .options {
+    bottom: 0;
+  }
+  position: relative;
+  overflow: hidden;
+  .options {
+    position: absolute;
+    background-color: white;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    padding: 0 !important;
+    transform: .3s;
+    font-size: 15px !important;
+    display: flex;
+    justify-content: space-around;
+    cursor: initial;
+
+  }
+  .box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+    transition: .2s;
+    font-size: 30px;
+    height: 200px;
+    &:hover{ 
+      background-color: #2A303A;
+      color: $primaryColor;
+    }
+  
+    .centerIt{
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

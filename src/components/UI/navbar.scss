@@ -1,0 +1,35 @@
+@import '../../../variables.scss';
+// #navbar {
+
+//   h1{
+//     color: $primaryColor;
+//   }
+//   background-color: #353C48;
+//   width: 17% !important;
+//   position: fixed;
+//   left: 0;
+//   bottom: 0;
+//   top: 0;
+//   box-shadow: 1px 0px 4px black;
+//   padding: 20px;
+//   z-index: 50;
+//   .navigations {
+
+.navItemLink{
+  text-decoration: none !important;
+  transition: .3s;
+  color: white;
+
+  div {
+    color: white;
+  }
+}
+
+a.navActive div {
+  color: $primaryColor;
+}
+
+.specialColor{
+  color: $primaryColor;
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+@import '../../../variables.scss';
+
+.bar {
+  background-color:  #EBEBEE;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  // #searchInput:focus .add {
+  // color: red !important;
+  // }
+  .add {
+    font-size: 50px !important;
+  }
+  .search {
+    cursor: pointer;
+    transition: .3s;
+    &:hover{ 
+      color: $primaryColor;
+      font-size: 30px;
+    }
+    &:active {
+      color: red;
+    }
+  }
+}
