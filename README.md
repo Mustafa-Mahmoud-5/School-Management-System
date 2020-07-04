@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+## About The App
+
+This is a MERN STACK school management system for controlling the school students, classes, teachers and subjects
+
+## Tools
+Front-end built with ReactJs, Material-UI.
+Back-end  built with NodeJs, Express and MongoDB.
+
 ## Available Scripts
 
 In the project directory, you can run:
